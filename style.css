@@ -2,6 +2,10 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+img{
+    width: 100%;
+}
+
 .btn{
     padding-left: 0px;
     border: none;
@@ -202,4 +206,9 @@ p{
 
 .categories .column2:last-child{
     margin-bottom: 0px;
+}
+
+.categories .order img{
+    width: 100%;
+    object-fit: contain;
 }
